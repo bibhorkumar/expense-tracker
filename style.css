@@ -1,0 +1,51 @@
+#container{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: salmon;
+    border: 9px solid limegreen;
+}
+
+#name-input{
+    width: 91%;
+}
+
+#form-element-1, #form-element-2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+#date-input,#amount-input{
+    width: 40%;
+    
+}
+
+#submit{
+    font-size: 1rem;
+    line-height: 1.6;
+    color:white;
+    background-color: rgb(33, 131, 46);
+}
+
+table{
+    margin-top: 20px;
+    border: 1px solid rgb(233, 230, 230);
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+#head-row{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    background-color: rgb(236, 235, 235);
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr:nth-of-type(odd){
+    background-color: rgb(236, 235, 235);
+}
